@@ -1,0 +1,15 @@
+<!--pages/cases/categoary.wxml-->
+  <view>
+    <view>{{case}}</view>
+    <picker-view
+      indicator-style="height: 50px;"
+      style="width: 100%; height: 300px;"
+      value="{{value}}"
+      bindchange="bindChange"
+    >
+      <picker-view-column>
+        <view wx:for="{{cases}}" style="line-height: 50px">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+    <button bindtap='inToCase'>Investigate it!</button>
+  </view>

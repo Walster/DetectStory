@@ -1,0 +1,7 @@
+<!--pages/Townhall/Townhall.wxml-->
+<view>
+<text>Town Hall</text>
+<button bindtap='clickToCases'>Detective cases</button>
+<button bindtap='clickToStories'>Detective stories</button>
+<!--progress percent="{{percent}}" active="True" show-info="True" /-->
+</view>

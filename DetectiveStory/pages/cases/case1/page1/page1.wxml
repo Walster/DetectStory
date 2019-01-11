@@ -1,0 +1,4 @@
+<!--pages/cases/case1/page1/page1.wxml-->
+  <view>
+    <view>case{{caseId}}</view>
+  </view>

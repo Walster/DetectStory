@@ -1,7 +1,12 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/townhall/townhall",
+    "pages/loading/loading",
+    "pages/cases/categoary",
+    "pages/cases/case1/page1/page1"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
