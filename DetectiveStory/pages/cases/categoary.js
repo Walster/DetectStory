@@ -5,8 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    cases: ["case1", "case2", "case3"],
-    case: "case1",
+    cases: ["突如一案", "了不起的变化", "小吃：麻婆豆腐"],
+    case: "突如一案",
   },
 
   /**
@@ -72,10 +72,10 @@ Page({
   },
   inToCase: function() {
     var val = "1"
-    if (this.data.case == "case2") {
+    if (this.data.case == "了不起的变化") {
         val = "2";
     }
-    else if (this.data.case == "case3") {
+    else if (this.data.case == "小吃：麻婆豆腐") {
         val = "3";
     }
     wx.redirectTo({

@@ -1,5 +1,5 @@
-<!--pages/cases/case1/page1/page1.wxml-->
-  <view >
+<!--pages/cases/case1/page6/page6.wxml-->
+<view>
     <view><text>突如一案</text></view>
     <view bindtap='clickNext' class='viewheight'><text>{{stories_line}}</text></view>
     <view>

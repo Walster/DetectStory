@@ -1,5 +1,6 @@
 <!--pages/cases/case1/page1/page1.wxml-->
   <view >
+  <view><text>突如一案</text></view>
     <view bindtap='clickNext' class='viewheight'><text>{{stories_line}}</text></view>
     <view>
       <button bindtap='goToNextPage' plain="True" class="btncommon" disabled='{{ifDisable}}'>>>> Next >>></button>

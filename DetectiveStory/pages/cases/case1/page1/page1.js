@@ -7,9 +7,9 @@ Page({
   data: {
     stories_line: "",
     ifDisable:true,
-    allLines: ['你是一名“开星”侦探社的侦探','今天你要当作一个真正的侦探'],
+    allLines: ['周日，傍晚，','你一人本来漫无目的走在South LanJing路上，','心里突然冒出念头：','“这里的东西太贵了，我还是去X街这个物美价廉，童叟无欺的地方吧”','心里有了主意，脚步不自觉的加快，不一会你就到了X街。','X街有很多不错的小酒吧，这时你看了下时间，8:00。','于是你决定去“Nagoya Impressive” 酒吧小酌一杯。','\nPress Next...'],
     clickTimes:0,
-    linesCount:2,
+    linesCount:8,
   },
 
   /**
