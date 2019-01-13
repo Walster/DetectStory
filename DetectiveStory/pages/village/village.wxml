@@ -1,0 +1,11 @@
+<!--pages/village/village.wxml-->
+<text>案件关键人物</text>
+<view >
+  <button bindtap='goToBusinessMan' plain="True" class="btn1" style="left: 50rpx;top: 150rpx;">商人</button>
+  <button bindtap='goToBarHolder' plain="True" class="btn1" style="left: 380rpx;top: 150rpx;">酒吧老板</button>
+  <button bindtap='goToTramp' plain="True" class="btn1" style="left: 50rpx; top: 360rpx;">流浪汉</button>
+  <button bindtap='goToPoliceMan' plain="True" class="btn1" style="left: 380rpx; top: 360rpx;">流浪汉</button>
+  <button bindtap='goToSoftwareEnginner' plain="True" class="btn1" style="left: 50rpx;top: 570rpx;">软件工程师</button>
+  <button bindtap='goToSoftwareWoman' plain="True" class="btn1" style="left: 380rpx;top: 570rpx;">路过的女性</button>
+</view>
+

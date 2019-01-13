@@ -69,10 +69,4 @@ Page({
      url: '../cases/categoary'
    })
   },
-
-  clickToStories: function () {
-    wx.navigateTo({
-      url: '../stories/categoary'
-    })
-  },
 })
