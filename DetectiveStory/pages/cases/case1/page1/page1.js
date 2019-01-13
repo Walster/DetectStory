@@ -93,7 +93,7 @@ Page({
 
   goToNextPage: function () {
     wx.navigateTo({
-      url: '../../../village/village'
+      url: '../page2/page2'
     })
   },
 })

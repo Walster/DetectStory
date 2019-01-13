@@ -1,1 +1,6 @@
 /* pages/cases/case1/page3/page3.wxss */
+view{
+  margin:0;
+  border:0;
+  padding:0;
+}
