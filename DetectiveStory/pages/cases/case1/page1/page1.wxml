@@ -1,4 +1,5 @@
 <!--pages/cases/case1/page1/page1.wxml-->
-  <view>
-    <view>case{{caseId}}</view>
+  <view >
+    <view bindtap='clickNext'>{{stories_line}}</view>
+    <button bindtap='goToNextPage' plain="True" class="btncommon">>>> Next >>></button>
   </view>

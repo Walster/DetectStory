@@ -5,13 +5,15 @@
     "pages/townhall/townhall",
     "pages/loading/loading",
     "pages/cases/categoary",
-    "pages/cases/case1/page1/page1"
+    "pages/cases/case1/page1/page1",
+    "pages/cases/case1/page2/page2",
+    "pages/test/test"
     
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Detective Games",
     "navigationBarTextStyle":"black"
   }
 }

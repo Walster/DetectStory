@@ -66,8 +66,8 @@ Page({
 
   clickToCases: function () {
     wx.navigateTo({
-      url: '../cases/categoary'
-    })
+     url: '../cases/categoary'
+   })
   },
 
   clickToStories: function () {

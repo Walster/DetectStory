@@ -11,5 +11,5 @@
         <view wx:for="{{cases}}" style="line-height: 50px">{{item}}</view>
       </picker-view-column>
     </picker-view>
-    <button bindtap='inToCase'>Investigate it!</button>
+    <button bindtap='inToCase' plain="True" class="btn1">Investigate it >>></button>
   </view>

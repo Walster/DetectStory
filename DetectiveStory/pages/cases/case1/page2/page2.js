@@ -1,20 +1,18 @@
-// pages/cases/case1/page1/page1.js
+// pages/cases/case1/page2/page2.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    stories_line: "你是一名“开星”侦探社的侦探",
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData ({
-      caseId: options.caseId
-    })
+
   },
 
   /**
@@ -64,16 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  clickNext: function() {
-    this.setData({
-      stories_line: "这是第二句"
-    })
-  },
-  goToNextPage: function () {
-    wx.navigateTo({
-      url: '../page2/page2'
-    })
-  },
+  }
 })
