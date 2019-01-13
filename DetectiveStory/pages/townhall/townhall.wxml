@@ -2,6 +2,5 @@
 <view>
 <view class="title">Detective Games</view>
 <button bindtap='clickToCases' plain="True" class="btn1">Detective cases</button>
-<button bindtap='clickToStories' plain="True" class="btn2">Detective stories</button>
 <!--progress percent="{{percent}}" active="True" show-info="True" /-->
 </view>
