@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    stories_line: "",
+    ifDisable: true,
+    allLines: ['案发时候，你看到了三个人', '大毛，二毛 和小明'],
+    clickTimes: 0,
+    linesCount: 2,
   },
 
   /**
@@ -62,5 +66,30 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  clickNext: function () {
+
+
+    this.data.clickTimes++
+
+
+    if (this.data.clickTimes >= this.data.linesCount) {
+      this.data.clickTimes = this.data.linesCount
+      this.setData({
+        ifDisable: false
+      })
+    }
+    var lines = ''
+    for (var i = 0; i < this.data.clickTimes; i++) {
+      lines = lines + '\n' + this.data.allLines[i]
+    }
+    this.setData({
+      stories_line: lines
+    })
+  },
+  goToNextPage: function () {
+    wx.navigateTo({
+      url: '../page3/page3'
+    })
+  },
 })

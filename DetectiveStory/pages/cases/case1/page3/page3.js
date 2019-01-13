@@ -1,24 +1,18 @@
-// pages/cases/case1/page1/page1.js
+// pages/cases/case1/page3/page3.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    stories_line: "",
-    ifDisable:true,
-    allLines: ['你是一名“开星”侦探社的侦探','今天你要当作一个真正的侦探'],
-    clickTimes:0,
-    linesCount:2,
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData ({
-      caseId: options.caseId,
-    })
+
   },
 
   /**
@@ -68,31 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  clickNext: function() {
-    
-
-    this.data.clickTimes++
-
-
-    if (this.data.clickTimes >= this.data.linesCount) {
-      this.data.clickTimes = this.data.linesCount
-      this.setData({
-        ifDisable: false
-      })
-    }
-    var lines = ''
-    for (var i = 0; i < this.data.clickTimes; i++) {
-        lines = lines + '\n' + this.data.allLines[i]
-    }
-      this.setData({
-        stories_line: lines
-      })
-  },
-  goToNextPage: function () {
-    wx.navigateTo({
-      url: '../page2/page2'
-    })
-  },
+  }
 })

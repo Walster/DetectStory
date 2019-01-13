@@ -1,5 +1,7 @@
 <!--pages/cases/case1/page1/page1.wxml-->
   <view >
-    <view bindtap='clickNext'>{{stories_line}}</view>
-    <button bindtap='goToNextPage' plain="True" class="btncommon">>>> Next >>></button>
+    <view bindtap='clickNext' class='viewheight'><text>{{stories_line}}</text></view>
+    <view>
+      <button bindtap='goToNextPage' plain="True" class="btncommon" disabled='{{ifDisable}}'>>>> Next >>></button>
+    </view>
   </view>
