@@ -14,8 +14,8 @@
     "pages/cases/case1/businessMan/businessMan",
       
     "pages/test/test",
-    "pages/chat_template/chat_template",
-    "pages/village/village"
+    "pages/village/village",
+    "pages/chat/MissJane/MissJane"
   ],
   "window": {
     "backgroundTextStyle": "dark",

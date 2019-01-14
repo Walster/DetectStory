@@ -3,9 +3,9 @@
 <view >
   <button bindtap='goToBusinessMan' plain="True" class="btn1" style="left: 50rpx;top: 150rpx;">贾富商</button>
   <button bindtap='goToBarHolder' plain="True" class="btn1" style="left: 380rpx;top: 150rpx;">久店长</button>
-  <button bindtap='goToTramp' plain="True" class="btn1" style="left: 50rpx; top: 360rpx;">混混甲</button>
-  <button bindtap='goToPoliceMan' plain="True" class="btn1" style="left: 380rpx; top: 360rpx;">混混乙</button>
+  <button bindtap='goToTrampA' plain="True" class="btn1" style="left: 50rpx; top: 360rpx;">混混甲</button>
+  <button bindtap='goToTrampB' plain="True" class="btn1" style="left: 380rpx; top: 360rpx;">混混乙</button>
   <button bindtap='goToSoftwareEnginner' plain="True" class="btn1" style="left: 50rpx;top: 570rpx;">牛工程师</button>
-  <button bindtap='goToSoftwareWoman' plain="True" class="btn1" style="left: 380rpx;top: 570rpx;">甄女士</button>
+  <button bindtap='goToMissJane' plain="True" class="btn1" style="left: 380rpx;top: 570rpx;">甄女士</button>
 </view>
 
