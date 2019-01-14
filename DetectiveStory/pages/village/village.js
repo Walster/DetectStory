@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+
+  goToBusinessMan: function () {
+    wx.navigateTo({
+      url: '../chat/businessman/businessman'
+    })
+  }, 
 })

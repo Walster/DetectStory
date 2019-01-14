@@ -1,0 +1,12 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">贾商人</view>
+        <text style="position: absolute;top: 250rpx;">{{ChatHistory}}</text>
+    </view>
+    <view class="page__bd">
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="default" style="position: absolute;top: 650rpx; left: 50rpx;" bindtap="openToast">{{ResponseChat1}}</button>
+            <button class="weui-btn" type="default" style="position: absolute;top: 800rpx; left: 50rpx;" bindtap="openNext">{{ResponseChat2}}</button>
+        </view>
+    </view>
+</view>
