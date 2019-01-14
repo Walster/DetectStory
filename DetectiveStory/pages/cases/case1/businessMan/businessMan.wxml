@@ -1,0 +1,8 @@
+<!--pages/cases/case1/businessMan/businessMan.wxml-->
+  <view >
+  <view><text>突如一案</text></view>
+    <view bindtap='clickNext' class='viewheight'><text>{{stories_line}}</text></view>
+    <view>
+      <button bindtap='goToVillage' plain="True" class="btncommon">>>> Back >>></button>
+    </view>
+  </view>

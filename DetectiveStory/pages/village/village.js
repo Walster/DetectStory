@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  goToBusinessMan: function () {
+    wx.navigateTo({
+      url: '../cases/case1/businessMan/businessMan'
+    })
+  },
 })
