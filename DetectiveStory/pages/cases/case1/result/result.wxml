@@ -1,0 +1,4 @@
+<!--pages/cases/case1/result/result.wxml-->
+<view>
+ <view>案情解析</view>
+</view>

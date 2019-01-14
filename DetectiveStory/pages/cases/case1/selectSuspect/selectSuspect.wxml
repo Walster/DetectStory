@@ -1,0 +1,17 @@
+<!--pages/cases/case1/selectSuspect/selectSuspect.wxml-->
+  <view>
+    <view>嫌疑人是......?</view>
+    <picker-view
+      indicator-style="height: 50px;"
+      style="width: 100%; height: 300px;"
+      value="{{value}}"
+      bindchange="bindChange"
+    >
+    </picker-view>
+   <button bindtap="gotoresult">久店长</button>
+   <button bindtap="gotoresult">流浪汉甲</button>
+   <button bindtap="gotoresult">流浪汉乙</button>
+   <button bindtap="gotoresult">牛工程师</button>
+   <button bindtap="gotoresult">甄女士</button>
+
+  </view>

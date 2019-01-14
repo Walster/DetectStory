@@ -12,7 +12,8 @@
     "pages/cases/case1/page5/page5",
     "pages/cases/case1/page6/page6",
     "pages/cases/case1/businessMan/businessMan",
-      
+    "pages/cases/case1/selectSuspect/selectSuspect",
+    "pages/cases/case1/result/result",
     "pages/test/test",
     "pages/village/village",
     "pages/chat/MissJane/MissJane"

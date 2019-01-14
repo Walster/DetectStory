@@ -1,6 +1,6 @@
 /* pages/cases/categoary.wxss */
  page{
-  background-image: url(http://192.168.1.9/resources/background.jpg);
+  background-image: url(http://10.144.156.118/resources/background.jpg);
   background-size: cover;
 
 }
